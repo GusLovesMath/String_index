@@ -1,7 +1,8 @@
 def string_index(string: str, character: str, case=False) -> dict:
     """
     Function that takes a string and a given character and returns
-    the number of times a character appears  in a string and it's indices.
+    the number of times a character appears  in a string and it's 
+    indices.
     """
     
     if not case:
