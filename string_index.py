@@ -11,8 +11,8 @@ def string_index(string: str, character: str, case=False) -> dict:
     count = string.count(character)
     indices = [i for i, l in enumerate(string) if l == character]
             
-    string_positions = {'Character': character,
-                        'Indices': indices,
-                        'Count': count}
+    string_positions = {'character': character,
+                        'indices': indices,
+                        'count': count}
     
     return string_positions
